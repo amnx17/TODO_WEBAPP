@@ -11,7 +11,7 @@ let text = document.getElementById("text");
         list.appendChild(list_li);
         text.value ="";
         list_li.onclick = function () {
-            if(confirm("Do you really want to delete this element"))
+            if(confirm("Do you really want to delete this 'NOTE' "))
             {this.parentNode.removeChild(this);}
         }
         }
