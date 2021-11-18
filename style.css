@@ -101,3 +101,19 @@ p{
     text-align: center;
     
 }
+@media (max-width:600px){
+    .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+    }
+    }
+    #text{
+        width: 90%;
+        margin-bottom: 3%;
+    }
+}
+
